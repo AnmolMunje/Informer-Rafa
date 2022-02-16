@@ -11,7 +11,7 @@ from utils.timefeatures import time_features
 
 import warnings
 warnings.filterwarnings('ignore')
-class Dataset_custom_XLB():
+class Dataset_Custom_XLB():
     def __init__(self, root_path, flag='train', size=None, 
                  features='S', data_path='XLB_informer.csv', 
                  target='Pct_change', scale=True, inverse=False, timeenc=0, freq='w', cols=None):
