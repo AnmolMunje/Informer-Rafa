@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings('ignore')
 class Dataset_Custom_XLB():
     def __init__(self, root_path, flag='train', size=None, 
-                 features='S', data_path='XLB_informer.csv', 
+                 features='S', data_path='Informer_data.csv', 
                  target='Pct_change', scale=True, inverse=False, timeenc=0, freq='w', cols=None):
         # size [seq_len, label_len, pred_len]
         # info
