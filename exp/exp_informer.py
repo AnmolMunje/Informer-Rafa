@@ -94,8 +94,8 @@ class Exp_Informer(Exp_Basic):
             freq=freq,
             cols=args.cols
         )
-        print(len(data_set))
-        print(flag)
+#         print(len(data_set))
+#         print(flag)
 #         print(flag, len(data_set))
         data_loader = DataLoader(
             data_set,
