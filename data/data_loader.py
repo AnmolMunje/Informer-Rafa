@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 class Dataset_Custom_XLB():
     def __init__(self, root_path, flag='train', size=None, 
                  features='S', data_path='Informer_data.csv', 
-                 target='Pct_change', scale=True, inverse=False, timeenc=0, freq='w', cols=None):
+                 target='Pct_change', scale=True, inverse=False, timeenc=0, freq='d', cols=None):
         # size [seq_len, label_len, pred_len]
         # info
         if size == None:
