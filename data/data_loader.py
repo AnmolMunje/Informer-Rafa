@@ -12,7 +12,7 @@ from utils.timefeatures import time_features
 import warnings
 warnings.filterwarnings('ignore')
 class Dataset_Custom_XLB(Dataset):
-    def __init__(self, root_path = './data', flag='train', size=None, 
+    def __init__(self, root_path = 'https://github.com/AnmolMunje/Informer-Rafa/blob/main/data/', flag='train', size=None, 
                  features='S', data_path='Informer_data.csv', 
                  target='Pct_change', scale=True, inverse=False, timeenc=0, freq='d', cols=None):
         # size [seq_len, label_len, pred_len]
